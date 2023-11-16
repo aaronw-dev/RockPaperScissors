@@ -1,11 +1,31 @@
 .choices-container {
-    background: red;
+    background: rgb(117, 161, 255);
     display: flex;
     padding: 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: auto;
     width: 30%;
     justify-content: space-evenly;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.choices-container.enemy{
+    background: rgb(255, 117, 117);
+    top:0;
+    bottom: auto;
+}
+.choice{
+    background: transparent;
+    border: none;
+    height: 50px;
+}
+.arena{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.6);
 }

@@ -10,10 +10,17 @@
 
 <body>
     <div class="choices-container">
-        <button class="choice">Rock</button>
-        <button class="choice">Paper</button>
-        <button class="choice">Scissors</button>
+        <button class="choice" onclick="playRPS(1)"><img src="icons/stone.png" height="100%"></button>
+        <button class="choice" onclick="playRPS(2)"><img src="icons/paper.png" height="100%"></button>
+        <button class="choice" onclick="playRPS(3)"><img src="icons/scissors.png" height="100%"></button>
     </div>
+    <div class="choices-container enemy">
+        <button class="choice"><img src="icons/stone.png" height="100%"></button>
+        <button class="choice"><img src="icons/paper.png" height="100%"></button>
+        <button class="choice"><img src="icons/scissors.png" height="100%"></button>
+    </div>
+    <img class="arena" src="arena.png">
+    <script src="script.js"></script>
 </body>
 
 </html>
