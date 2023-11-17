@@ -41,7 +41,3 @@ function playRPS(choice) {
     console.log("Draw!");
   }
 }
-
-// Example usage:
-// const choice = "1"; // You can pass the player's choice as an argument
-// playRPS(choice);
